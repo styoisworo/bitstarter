@@ -7,7 +7,7 @@ var buff = fs.readFileSync(index.htmle);
 var st = buff.toString();
 
 app.get('/', function(request, response) {
-  response.send(st);
+  response.send('ooshieeett');
 });
 
 var port = process.env.PORT || 5000;
