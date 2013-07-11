@@ -1,0 +1,788 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="Shortcut Icon" href="http://www.mangahere.com/favicon32.ico" type="image/x-icon" />
+<meta name="author" content="Manga Here" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="mangahere" />
+<meta name="robots" content="index,follow" />
+<meta name="rating" content="general" />
+<meta name="revisit-after" content="1 day" />
+<meta property="fb:app_id" content="250769461611065"/>
+<meta property="fb:admins" content="100001376095179"/>
+
+<meta name="keywords" content="manga,read manga online,magna scans,english manga,naruto manga,bleach manga, one piece manga,manga chapter,manga online,read free manga,free manga,read free manga online,manga viewer" />
+<meta name="description" content="Read your favorite manga online! Hundreds of high-quality free manga for you, with a list being updated daily. Naruto manga, Bleach manga, One Piece manga, Air Gear manga, Claymore manga, Fairy Tail manga, Inuyasha manga, and many more…" />
+<title>Manga Here - Read English Manga Free Online. Manga is Here!</title>
+<meta property="og:title" content="Read Manga Online" />
+<meta property="og:site_name" content="Mange Here" />
+<meta property="og:image" content="http://m.mhcdn.net/media/images/logotn.png" />
+
+<meta name="google-site-verification" content="12CilUCSRjH7M5Q9qeIwyY6nBnHUj4yScLFGDFWYF0w" />
+
+<link rel="search" type="application/opensearchdescription+xml" title="Manga Here Search" href="http://www.mangahere.com/opensearch.xml" />
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/207/oIeP"/>
+<link rel="stylesheet" type="text/css" media="screen" href="http://m.mhcdn.net/media/css/theme.css?v=250" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://m.mhcdn.net/media/css/default.css?v=250" />
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="http://m.mhcdn.net/media/css/ie6.css?v=250" /><![endif]-->
+
+<script type="text/javascript" src="http://m.mhcdn.net/media/js/LAB.min.js?v=250"></script>
+<!--[if IE]>
+<script type="text/javascript" src="http://m.mhcdn.net/media/js/html5.js?v=250"></script>
+<script type="text/javascript" src="http://m.mhcdn.net/media/js/css3-mediaqueries.js?v=250"></script>
+<![endif]-->
+
+<script type="text/javascript">
+var img_url = "http://m.mhcdn.net/media/images/", options, a;
+var base_url = "http://www.mangahere.com/";
+var fb_app_id="250769461611065";
+$LAB
+.queueScript("http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js").queueWait()
+.queueScript("http://m.mhcdn.net/media/js/jquery.validate.js?v=250").queueWait()
+.queueScript("http://m.mhcdn.net/media/js/jquery.autocomplete.js?v=250").queueWait(function () {
+	jQuery(function () {
+		options = {
+			serviceUrl: '/ajax/search.php',
+			minChars: 1,
+			delimiter: /(,|;)\s*/,
+			maxHeight: 400,
+			width: 300,
+			zIndex: 9999,
+			deferRequestBy: 0,
+			noCache: true
+		};
+		a = $('#query').autocomplete(options);
+	});
+})
+.queueScript("http://m.mhcdn.net/media/js/history.js?v=250")
+.queueScript("http://m.mhcdn.net/media/js/select_show.js?v=250")
+.queueScript("http://m.mhcdn.net/media/js/tooltip.js?v=250")
+.queueWait()
+.queueScript("http://m.mhcdn.net/media/js/fb_dialog.js?v=250").queueWait();
+function addFavorite() {
+	if (document.all) {
+		try {
+			window.external.addFavorite('http://www.mangahere.com', 'Manga Here - Read English Manga Free Online. Manga is Here!');
+		} catch (e) {
+			alert("Fail to add to your favorites, please press Ctrl + D to try again");
+		}
+	} else if (window.sidebar) {
+		window.sidebar.addPanel('Manga Here - Read English Manga Free Online. Manga is Here!', 'http://www.mangahere.com', "");
+	} else {
+		alert("Fail to add to your favorites, please press Ctrl + D to try again");
+	}
+}
+
+function setHomepage() {
+	if (document.all) {
+		document.body.style.behavior = 'url(#default#homepage)';
+		document.body.setHomePage('http://www.mangahere.com');
+	} else if (window.sidebar) {
+		if (window.netscape) {
+			try {
+				netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+			} catch (e) {
+				alert('This operation was rejected by your brower, please input “about:config”at address bar and turn "signed.applets.codebase_principal_support" to ture.');
+			}
+		}
+		var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+		prefs.setCharPref('browser.startup.homepage', 'http://www.mangahere.com');
+	} else {
+		alert('This funciton is not supported by your brower, please add manually');
+	}
+}
+</script>
+<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'>
+</script>
+<script type='text/javascript'>
+GS_googleAddAdSenseService("ca-pub-7757812544502247");
+GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+GA_googleAddSlot("ca-pub-7757812544502247", "mangahere_home_right_160x600");
+GA_googleAddSlot("ca-pub-7757812544502247", "mangahere_home_right_300x250");
+GA_googleAddSlot("ca-pub-7757812544502247", "mangahere_page_right_160x600");
+GA_googleAddSlot("ca-pub-7757812544502247", "mangahere_page_right_160x600m");
+GA_googleAddSlot("ca-pub-7757812544502247", "mangahere_page_top_728x90");
+GA_googleAddSlot("ca-pub-7757812544502247", "mangahere_page_top_728x90m");
+GA_googleAddSlot("ca-pub-7757812544502247", "mangahere_ros_right_160x600");
+GA_googleAddSlot("ca-pub-7757812544502247", "mangahere_ros_right_300x250");
+GA_googleAddSlot("ca-pub-7757812544502247", "mangahere_ros_top_728x90");
+</script>
+<script type='text/javascript'>
+GA_googleFetchAds();
+</script>
+</head>
+<body>
+<!-- body-bg-top start -->
+    <div class="MHShuffleAd">
+      <a href="http://go.game321.com/mgh_ps.htm" target="_blank" class="body-bg-left_game321"></a>
+      <a href="http://go.game321.com/mgh_ps.htm" target="_blank" class="body-bg-right_game321"></a>
+    </div>
+<!-- body-bg-top end -->
+<!--------------------header start-------------------->
+<header>
+
+	<section class="header_top">
+		<a href="http://www.mangahere.com/" class="logo"><h1>Read Manga Online</h1></a>
+		<span class="sign">
+					<a href="javascript:boxShow('sign_in');" rel="nofollow">[ Sign In ]</a>
+			<a href="javascript:boxShow('sign_up');" rel="nofollow">[ Sign Up ]</a>
+				</span>
+        <span class="language"><a href="http://www.mangahere.com"><strong>English</strong></a>|<a href="http://es.mangahere.com">Español</a><span class="new_redbig"></span></span>
+	</section>
+	<nav>
+		<ul class="menu clearfix">
+			<li><a href="http://www.mangahere.com/" class="select">Home</a></li>
+			<li><a href="http://www.mangahere.com/latest/" >Latest Releases</a></li>
+			<li><a href="http://www.mangahere.com/mangalist/" >Manga List</a></li>
+			<li><a href="http://www.mangahere.com/directory/?views.za" >Hot Manga</a></li>
+			<li><a href="http://www.mangahere.com/spoilers/" >Spoilers &amp; News</a></li>
+			<li><a href="http://www.mangahere.com/manga/naruto/">Naruto</a></li>
+			<li><a href="http://www.mangahere.com/manga/bleach/">Bleach</a></li>
+			<li><a href="http://www.mangahere.com/manga/one_piece/">One Piece</a></li>
+			<li><a href="http://www.mangahere.com/manga/fairy_tail/">Fairy Tail</a></li>
+			<li><a href="http://z6.com/?nxc=Z6MH" target="_blank">Games</a></li>
+		</ul>
+		<section class="search_top clearfix">
+			<aside class="search_topR">
+					<span class="search_input">
+						<form action="/search.php" id="lookupform" name="lookupform" method="get">
+						<input type="text" id="query" name="name" value="Enter Manga Name..." class="search_text" autocomplete="off" />
+						<input type="submit" value="Search" class="search_button" />
+						</form>
+					</span>
+					<span class="sur_adv">
+                        						<a class="six_buttoon" href="http://www.mangahere.com/random.htm">Surprise</a>
+                        						<a class="six_buttoon" href="http://www.mangahere.com/advsearch.htm" rel="nofollow">Advanced</a>
+					</span>
+				<script type="text/javascript">
+				$LAB.queueWait(function () {
+					$(".search_text").focus(function () {
+						$(this).val("");
+					}).focusout(function () {
+						if ($(this).val() == "") {
+							$(this).val("Enter Manga Name...")
+						}
+					});
+				});
+				</script>
+			</aside>
+			<article class="search_topL">
+				<a href="/romance/">Romance</a>|<a href="/comedy/">Comedy</a>|<a href="/shoujo/">Shoujo</a>|<a href="/drama/">Drama</a>|<a href="/school_life/">School Life</a>|<a href="/shounen/">Shounen</a>|<a href="/action/">Action</a>|<a href="/fantasy/">Fantasy</a>|<a href="/seinen/">Seinen</a>
+				<a href="/directory/" class="more"></a>
+			</article>
+		</section>
+	</nav>
+
+</header>
+
+<div class="dialog_box" id="sign_up">
+  <a href="javascript:void(0);" class="close" onclick="javascript:boxRemove('sign_up');" title="Close">x</a>
+  <div class="title">Sign Up</div>
+  <p class="mb10"><strong class="color_0077">Want to save time?</strong> Sign up with your facebook account now</p>
+  <a href="#" class="facebook_sign"><span>f</span>Login with Facebook</a>
+  <p class="color_0077 mt10">Or complete the form below</p>
+  <div class="register">
+		 <form id="signupform">
+     <ul class="register_list">
+       <li><label>User Name</label><input type="text" class="text" name="username" id="username" /><span class="color_ff00">Required in 4 to 14 letters or numbers</span></li>
+       <li><label>Password</label><input type="password" class="text" name="password" id="password" /><span class="color_ff00">Required in 6-14 characters</span></li>
+       <li><label><span class="re_type">Re-type<br />Password</span></label><input type="password" class="text" name="password_confirm" id="password_confirm" /><span></span></li>
+       <li><label>Email</label><input type="text" class="text" name="email" id="email" /><span></span></li>
+       <li class="ml80"><a href="javascript:void(0);" class="one_buttoon mr15"><span>Sign Up</span></a></li>
+     </ul>
+		 </form>
+  </div>
+</div>
+<div class="dialog_box" id="sign_in">
+  <a href="javascript:void(0);" class="close" onclick="javascript:boxRemove('sign_in');" title="Close">x</a>
+  <div class="title">Sign In</div>
+  <p class="mb10"><strong class="color_0077">Sign in with your facebook account</strong></p>
+  <a href="#" class="facebook_sign"><span>f</span>Login with Facebook</a>
+  <p class="color_0077 mt10">Or with mangahere account <a href="javascript:boxRemove('sign_in');boxShow('sign_up');" class="color_0077 tdu ml10">Don't have an account?</a></p>
+  <div class="login">
+		 <form id="signinform">
+     <ul class="login_list">
+       <li><label>Username</label><input type="text" class="text" name="name" /></li>
+       <li><label>Password</label><input type="password" class="text" name="pass" /></li>
+       <li>
+			 	<label class="checkbox_RM"><input type="checkbox" class="checkbox" value="1" name="remember" />Remember Me</label>
+				<a href="/forgotpassword.htm" class="color_0077 ml10">Forget User Name/Password?</a>
+			 </li>
+       <li class="ml80"><a href="javascript:void(0);" id="normal_login" class="one_buttoon mr15"><span>Sign In</span></a></li>
+     </ul>
+		 </form>
+  </div>
+</div>
+<div id="back_top"><span></span>Back to Top</div>
+<script type="text/javascript">
+$LAB.queueWait(function(){
+	FB.init({appId:'250769461611065',cookie:true,xfbml:true,oauth:true});
+	$('.facebook_sign').click(function(){
+		FB.login(function(r){
+			if(r.authResponse){window.location=base_url + "connect/facebook.php?r="}
+		},{scope:'email,publish_stream'}
+	)});
+	$('#normal_login').click(function(){
+		$.post(
+			'http://www.mangahere.com/ajax/signin.php',
+			$("#signinform").serialize(),
+			function(r){if(r == 0) window.location.reload(); else alert('Sign in failed: please check your username or password.');}
+		);
+	});
+	$('#signinform input').blur(function(){
+	});
+	$('#signupform a').click(function(){
+		if($('#signupform .msg-correct').length >=4) {
+			$.post(
+				'http://www.mangahere.com/ajax/signup.php',
+				$("#signupform").serialize(),
+				function(r){
+					if(r == 0) window.location.reload();
+					else alert(r);
+				}
+			);
+		}
+	});
+	jQuery.validator.addMethod("username", function(value, element) {
+		return this.optional(element) || /^[A-Za-z0-9]+$/.test(value);
+	}, "Only allowed letters or numbers");
+	$("#signupform").validate({
+		rules: {
+			username: {required: true,rangelength: [4,14],remote: "/ajax/user.php"},
+			password: {required: true,rangelength: [6,14]},
+			password_confirm: {required: true,rangelength: [6,14],equalTo:"#password"},
+			email: {required: true,email: true,remote: "/ajax/email.php"}
+		},
+		messages: {
+			username: {required: "Please input your username",rangelength:jQuery.format("Only allowed {0} to {1} letters or numbers"),remote: jQuery.format("This username has already exist")},
+			password: {required: "Please input your password",rangelength:jQuery.format("Only allowed {0} to {1} characters")},
+			password_confirm: {required: "Please input your password again",rangelength:jQuery.format("Only allowed {0} to {1} characters"),equalTo: "Please verify your password again"},
+			email: {required: "Please input your Email",email: "Please input an valid Email address",remote: jQuery.format("This Email has already been used")}
+		},
+		errorPlacement: function(error, element) {
+			element.next().addClass("msg-errors").html('');
+			element.next('span.msg-errors').append(error.html());
+		},
+		success: function(label,element) {
+			element.next().removeClass().addClass("msg-correct").html('');
+		}
+	});
+});
+</script>
+
+<section class="main clearfix">
+	<article class="left widscreen">
+    <div class="mr316index">
+		<div class="banner_pic mb10 clearfix">
+		<div class="flexslider">
+			<ul class="slides">
+							<li><a href="http://www.mangahere.com/manga/renai_boukun/" ><img src="http://m.mhcdn.net/store/banner/RENAI BOUKUN.jpg?v=1373541021"  alt="RENAI BOUKUN   manga" /></a></li>
+								<li><a href="http://www.mangahere.com/manga/yandere_kanojo/" ><img src="http://m.mhcdn.net/store/banner/YANDERE KANOJO.jpg?v=1373541071"  alt="YANDERE KANOJO manga" /></a></li>
+								<li><a href="http://www.mangahere.com/manga/koisuru_mitsuba/" ><img src="http://m.mhcdn.net/store/banner/Koisuru Mitsuba.jpg?v=1373454954"  alt="Koisuru Mitsuba manga" /></a></li>
+								<li><a href="http://www.mangahere.com/manga/koi_dano_ai_dano/" ><img src="http://m.mhcdn.net/store/banner/Koi Dano Ai Dano update.jpg?v=1373456335"  alt="Koi Dano Ai Dano manga" /></a></li>
+								<li><a href="http://www.mangahere.com/manga/enma_no_hanayome_to_kimetsukerareta_fukou_na_ore_no_jinsei_keikaku/" ><img src="http://m.mhcdn.net/store/banner/Enma no Hanayome to Kimetsukerareta Fukou na Ore no Jinsei Keikaku.jpg?v=1373457210"  alt="Enma no Hanayome to Kimetsukerareta Fukou na Ore no Jinsei Keikaku    manga" /></a></li>
+								<li><a href="http://www.wallpaperhere.com/Anime" target="_blank"><img src="http://m.mhcdn.net/store/banner/anime.jpg?v=1372669534"  alt="anime wallpaper" /></a></li>
+							</ul>
+		</div>
+	</div>
+<!-- end of popular manga -->
+<script type="text/javascript">
+$LAB.queueWait(function(){
+  $('.flexslider').flexslider({
+    animation: "slide",
+  });
+});
+</script>
+<div class="box_w clearfix">
+	<a href="/latest/" class="more right"></a>
+	<div class="title">
+		<span class="title_icon"></span>
+		<h2>Hot Manga</h2> Updates
+	</div>
+</div>
+<ul id="home_hot_manga" class="hot_manga clearfix">			<li>
+				<a class="hot_manga_img" href="http://www.mangahere.com/manga/the_god_of_high_school/c116/" class="popular_img">
+					<img  src="http://m.mhcdn.net/store/manga/9275/thumb_cover.jpg?v=1373564583" alt="The God Of High School" />
+				</a>
+				<h3><a href="http://www.mangahere.com/manga/the_god_of_high_school/c116/" title="The God Of High School">
+					The God Of High School 116				</a></h3>
+			</li>
+						<li>
+				<a class="hot_manga_img" href="http://www.mangahere.com/manga/fairy_tail/v35/c343/" class="popular_img">
+					<img  src="http://m.mhcdn.net/store/manga/246/thumb_cover.jpg?v=1373559184" alt="Fairy Tail" />
+				</a>
+				<h3><a href="http://www.mangahere.com/manga/fairy_tail/v35/c343/" title="Fairy Tail">
+					Fairy Tail 343				</a></h3>
+			</li>
+						<li>
+				<a class="hot_manga_img" href="http://www.mangahere.com/manga/kamisama_hajimemashita/c098/" class="popular_img">
+					<img  src="http://m.mhcdn.net/store/manga/2548/thumb_cover.jpg?v=1373537061" alt="Kamisama Hajimemashita" />
+				</a>
+				<h3><a href="http://www.mangahere.com/manga/kamisama_hajimemashita/c098/" title="Kamisama Hajimemashita">
+					Kamisama Hajimemashita 98				</a></h3>
+			</li>
+						<li>
+				<a class="hot_manga_img" href="http://www.mangahere.com/manga/kuroko_no_basket/v22/c221/" class="popular_img">
+					<img  src="http://m.mhcdn.net/store/manga/5259/thumb_cover.jpg?v=1373535184" alt="Kuroko no Basket" />
+				</a>
+				<h3><a href="http://www.mangahere.com/manga/kuroko_no_basket/v22/c221/" title="Kuroko no Basket">
+					Kuroko no Basket 221				</a></h3>
+			</li>
+						<li>
+				<a class="hot_manga_img" href="http://www.mangahere.com/manga/beelzebub/v22/c212/" class="popular_img">
+					<img  src="http://m.mhcdn.net/store/manga/5502/thumb_cover.jpg?v=1373455634" alt="Beelzebub" />
+				</a>
+				<h3><a href="http://www.mangahere.com/manga/beelzebub/v22/c212/" title="Beelzebub">
+					Beelzebub 212				</a></h3>
+			</li>
+						<li>
+				<a class="hot_manga_img" href="http://www.mangahere.com/manga/toriko/c241/" class="popular_img">
+					<img  src="http://m.mhcdn.net/store/manga/3660/thumb_cover.jpg?v=1373431629" alt="Toriko" />
+				</a>
+				<h3><a href="http://www.mangahere.com/manga/toriko/c241/" title="Toriko">
+					Toriko 241				</a></h3>
+			</li>
+						<li>
+				<a class="hot_manga_img" href="http://www.mangahere.com/manga/bleach/v58/c545/" class="popular_img">
+					<img  src="http://m.mhcdn.net/store/manga/9/thumb_cover.jpg?v=1373429996" alt="Bleach" />
+				</a>
+				<h3><a href="http://www.mangahere.com/manga/bleach/v58/c545/" title="Bleach">
+					Bleach 545				</a></h3>
+			</li>
+						<li>
+				<a class="hot_manga_img" href="http://www.mangahere.com/manga/one_piece/v69/c714/" class="popular_img">
+					<img  src="http://m.mhcdn.net/store/manga/106/thumb_cover.jpg?v=1373429969" alt="One Piece" />
+				</a>
+				<h3><a href="http://www.mangahere.com/manga/one_piece/v69/c714/" title="One Piece">
+					One Piece 714				</a></h3>
+			</li>
+						<li>
+				<a class="hot_manga_img" href="http://www.mangahere.com/manga/naruto/v63/c638/" class="popular_img">
+					<img  src="http://m.mhcdn.net/store/manga/8/thumb_cover.jpg?v=1373534822" alt="Naruto" />
+				</a>
+				<h3><a href="http://www.mangahere.com/manga/naruto/v63/c638/" title="Naruto">
+					Naruto 638				</a></h3>
+			</li>
+						<li>
+				<a class="hot_manga_img" href="http://www.mangahere.com/manga/denpa_kyoushi/c081/" class="popular_img">
+					<img  src="http://m.mhcdn.net/store/manga/10266/thumb_cover.jpg?v=1373429906" alt="Denpa Kyoushi" />
+				</a>
+				<h3><a href="http://www.mangahere.com/manga/denpa_kyoushi/c081/" title="Denpa Kyoushi">
+					Denpa Kyoushi 81				</a></h3>
+			</li>
+			</ul><div class="box_w clearfix mt10">
+	<a href="/latest/" class="more right"></a>
+	<div class="title">
+		<span class="title_icon"></span>Latest Manga Updates
+	</div>
+</div>
+		<div class="manga_updates">
+<dl><dt><i class="manga_open"></i><a rel="Naruto" class="manga_info" href="http://www.mangahere.com/manga/naruto/" >Naruto</a> <i class="hot">hot</i><span class="time">Yesterday 12:00am</span></dt><dd><a href="http://www.mangahere.com/manga/naruto/v63/c638/" title="Naruto 638">Naruto 638</a> The Ten-Tail's Jinchuuriki-Obito</dd></dl><dl><dt><i class="manga_open"></i><a rel="Bleach" class="manga_info" href="http://www.mangahere.com/manga/bleach/" >Bleach</a> <i class="hot">hot</i><span class="time">Yesterday 12:06am</span></dt><dd><a href="http://www.mangahere.com/manga/bleach/v58/c545/" title="Bleach 545">Bleach 545</a> Blue Stripes</dd></dl><dl><dt><i class="manga_open"></i><a rel="One Piece" class="manga_info" href="http://www.mangahere.com/manga/one_piece/" >One Piece</a> <i class="hot">hot</i><span class="time">Yesterday 12:00am</span></dt><dd><a href="http://www.mangahere.com/manga/one_piece/v69/c714/" title="One Piece 714">One Piece 714</a> Lucy And Ucy</dd></dl><dl><dt><i class="manga_open"></i><a rel="The God Of High School" class="manga_info" href="http://www.mangahere.com/manga/the_god_of_high_school/" >The God Of High School</a> <i class="hot">hot</i><span class="time">Today 1:43pm</span></dt><dd><a href="http://www.mangahere.com/manga/the_god_of_high_school/c116/" title="The God Of High School 116">The God Of High School 116</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Fairy Tail" class="manga_info" href="http://www.mangahere.com/manga/fairy_tail/" >Fairy Tail</a> <i class="hot">hot</i><span class="time">Today 12:13pm</span></dt><dd><a href="http://www.mangahere.com/manga/fairy_tail/v35/c343/" title="Fairy Tail 343">Fairy Tail 343</a> </dd><dd><a href="http://www.mangahere.com/manga/fairy_tail/v35/c342/" title="Fairy Tail 342">Fairy Tail 342</a> </dd><dd><a href="http://www.mangahere.com/manga/fairy_tail/v35/c341/" title="Fairy Tail 341">Fairy Tail 341</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Ikoku Shoujo To Sumire No Hanataba" class="manga_info" href="http://www.mangahere.com/manga/ikoku_shoujo_to_sumire_no_hanataba/" >Ikoku Shoujo To Sumire No Hanataba</a><span class="time">Today 11:12am</span></dt><dd><a href="http://www.mangahere.com/manga/ikoku_shoujo_to_sumire_no_hanataba/c011/" title="Ikoku Shoujo To Sumire No Hanataba 11">Ikoku Shoujo To Sumire No Hanataba 11</a> Petal 11</dd></dl><dl><dt><i class="manga_open"></i><a rel="Ashita mo Kitto Koishiteru" class="manga_info" href="http://www.mangahere.com/manga/ashita_mo_kitto_koishiteru/" >Ashita mo Kitto Koishiteru</a><span class="time">Today 10:57am</span></dt><dd><a href="http://www.mangahere.com/manga/ashita_mo_kitto_koishiteru/v03/c010/" title="Ashita mo Kitto Koishiteru 10">Ashita mo Kitto Koishiteru 10</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Shima Shima Everyday" class="manga_info" href="http://www.mangahere.com/manga/shima_shima_everyday/" >Shima Shima Everyday</a><span class="time">Today 10:52am</span></dt><dd><a href="http://www.mangahere.com/manga/shima_shima_everyday/c018/" title="Shima Shima Everyday 18">Shima Shima Everyday 18</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Sugar Girl, Sugar Doll" class="manga_info" href="http://www.mangahere.com/manga/sugar_girl_sugar_doll/" >Sugar Girl, Sugar Doll</a><span class="time">Today 9:47am</span></dt><dd><a href="http://www.mangahere.com/manga/sugar_girl_sugar_doll/c002/" title="Sugar Girl, Sugar Doll 2">Sugar Girl, Sugar Doll 2</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Durarara!! - Saikahen" class="manga_info" href="http://www.mangahere.com/manga/durarara_saikahen/" >Durarara!! - Saikahen</a><span class="time">Today 7:12am</span></dt><dd><a href="http://www.mangahere.com/manga/durarara_saikahen/c011/" title="Durarara!! - Saikahen 11">Durarara!! - Saikahen 11</a> Colour of the Ready Sword</dd><dd><a href="http://www.mangahere.com/manga/durarara_saikahen/c010/" title="Durarara!! - Saikahen 10">Durarara!! - Saikahen 10</a> Sealing the Madness</dd></dl><dl><dt><i class="manga_open"></i><a rel="Junai Tokkou Taichou!" class="manga_info" href="http://www.mangahere.com/manga/junai_tokkou_taichou/" >Junai Tokkou Taichou!</a><span class="time">Today 6:42am</span></dt><dd><a href="http://www.mangahere.com/manga/junai_tokkou_taichou/v11/c002/" title="Junai Tokkou Taichou! 2">Junai Tokkou Taichou! 2</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Renai Boukun" class="manga_info" href="http://www.mangahere.com/manga/renai_boukun/" >Renai Boukun</a> <i class="hot">hot</i><span class="time">Today 6:25am</span></dt><dd><a href="http://www.mangahere.com/manga/renai_boukun/c010/" title="Renai Boukun 10">Renai Boukun 10</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Peak (Im Gang-hyeok)" class="manga_info" href="http://www.mangahere.com/manga/peak_im_gang_hyeok/" >Peak (Im Gang-hyeok)</a><span class="time">Today 6:09am</span></dt><dd><a href="http://www.mangahere.com/manga/peak_im_gang_hyeok/v05/c078/" title="Peak (Im Gang-hyeok) 78">Peak (Im Gang-hyeok) 78</a> </dd><dd><a href="http://www.mangahere.com/manga/peak_im_gang_hyeok/c077/" title="Peak (Im Gang-hyeok) 77">Peak (Im Gang-hyeok) 77</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Kamisama Hajimemashita" class="manga_info" href="http://www.mangahere.com/manga/kamisama_hajimemashita/" >Kamisama Hajimemashita</a> <i class="hot">hot</i><span class="time">Today 5:48am</span></dt><dd><a href="http://www.mangahere.com/manga/kamisama_hajimemashita/c098/" title="Kamisama Hajimemashita 98">Kamisama Hajimemashita 98</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="The Children's Teacher, Mr. Kwon" class="manga_info" href="http://www.mangahere.com/manga/the_children_s_teacher_mr_kwon/" >The Children's Teacher, Mr. Kwon</a><span class="time">Today 5:42am</span></dt><dd><a href="http://www.mangahere.com/manga/the_children_s_teacher_mr_kwon/c020/" title="The Children's Teacher, Mr. Kwon 20">The Children's Teacher, Mr. Kwon 20</a> D-1</dd></dl><dl><dt><i class="manga_open"></i><a rel="Kuroko no Basket" class="manga_info" href="http://www.mangahere.com/manga/kuroko_no_basket/" >Kuroko no Basket</a> <i class="hot">hot</i><span class="time">Today 5:33am</span></dt><dd><a href="http://www.mangahere.com/manga/kuroko_no_basket/v22/c221/" title="Kuroko no Basket 221">Kuroko no Basket 221</a> </dd></dl><dl><dt><i class="manga_close"></i><a rel="Chibi Vampire" class="manga_info" href="http://www.mangahere.com/manga/chibi_vampire/" >Chibi Vampire</a><span class="time">Today 4:53am</span></dt><dd><a href="http://www.mangahere.com/manga/chibi_vampire/v14/c058.4/" title="Chibi Vampire 58.4">Chibi Vampire 58.4</a> Special:lost girl in the forest of Braunrick</dd></dl><dl><dt><i class="manga_open"></i><a rel="Nar Kiss" class="manga_info" href="http://www.mangahere.com/manga/nar_kiss/" >Nar Kiss</a><span class="time">Today 3:38am</span></dt><dd><a href="http://www.mangahere.com/manga/nar_kiss/c002/" title="Nar Kiss 2">Nar Kiss 2</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="House Backer" class="manga_info" href="http://www.mangahere.com/manga/house_backer/" >House Backer</a> <i class="new">new</i><span class="time">Today 3:23am</span></dt><dd><a href="http://www.mangahere.com/manga/house_backer/c001/" title="House Backer 1">House Backer 1</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Yandere Kanojo" class="manga_info" href="http://www.mangahere.com/manga/yandere_kanojo/" >Yandere Kanojo</a><span class="time">Today 2:46am</span></dt><dd><a href="http://www.mangahere.com/manga/yandere_kanojo/v05/c051.1/" title="Yandere Kanojo 51.1">Yandere Kanojo 51.1</a> Doubles Marathon, That Is, The Gr ... ent, Part 2</dd><dd><a href="http://www.mangahere.com/manga/yandere_kanojo/v05/c051/" title="Yandere Kanojo 51">Yandere Kanojo 51</a> Tanaka's Family, That Is, A Complicated Situation</dd></dl><dl><dt><i class="manga_open"></i><a rel="Gakkou Gurashi!" class="manga_info" href="http://www.mangahere.com/manga/gakkou_gurashi/" >Gakkou Gurashi!</a> <i class="new">new</i><span class="time">Today 1:03am</span></dt><dd><a href="http://www.mangahere.com/manga/gakkou_gurashi/c001/" title="Gakkou Gurashi! 1">Gakkou Gurashi! 1</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Pyu to Fuku! Jaguar" class="manga_info" href="http://www.mangahere.com/manga/pyu_to_fuku_jaguar/" >Pyu to Fuku! Jaguar</a><span class="time">Today 12:17am</span></dt><dd><a href="http://www.mangahere.com/manga/pyu_to_fuku_jaguar/v07/c148/" title="Pyu to Fuku! Jaguar 148">Pyu to Fuku! Jaguar 148</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Uchuu Kyoudai" class="manga_info" href="http://www.mangahere.com/manga/uchuu_kyoudai/" >Uchuu Kyoudai</a><span class="time">Today 11:53pm</span></dt><dd><a href="http://www.mangahere.com/manga/uchuu_kyoudai/c137/" title="Uchuu Kyoudai 137">Uchuu Kyoudai 137</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="7 Nin No Shakespeare" class="manga_info" href="http://www.mangahere.com/manga/7_nin_no_shakespeare/" >7 Nin No Shakespeare</a><span class="time">Today 11:32pm</span></dt><dd><a href="http://www.mangahere.com/manga/7_nin_no_shakespeare/c017/" title="7 Nin No Shakespeare 17">7 Nin No Shakespeare 17</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Onepunch-Man (ONE)" class="manga_info" href="http://www.mangahere.com/manga/onepunch_man_one/" >Onepunch-Man (ONE)</a><span class="time">Today 11:18pm</span></dt><dd><a href="http://www.mangahere.com/manga/onepunch_man_one/c061/" title="Onepunch-Man (ONE) 61">Onepunch-Man (ONE) 61</a> </dd><dd><a href="http://www.mangahere.com/manga/onepunch_man_one/c060/" title="Onepunch-Man (ONE) 60">Onepunch-Man (ONE) 60</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Silver Spoon" class="manga_info" href="http://www.mangahere.com/manga/silver_spoon/" >Silver Spoon</a> <i class="hot">hot</i><span class="time">Today 11:14pm</span></dt><dd><a href="http://www.mangahere.com/manga/silver_spoon/c080/" title="Silver Spoon 80">Silver Spoon 80</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Centaur no Nayami" class="manga_info" href="http://www.mangahere.com/manga/centaur_no_nayami/" >Centaur no Nayami</a><span class="time">Today 10:47pm</span></dt><dd><a href="http://www.mangahere.com/manga/centaur_no_nayami/c034/" title="Centaur no Nayami 34">Centaur no Nayami 34</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Sidooh" class="manga_info" href="http://www.mangahere.com/manga/sidooh/" >Sidooh</a><span class="time">Today 9:37pm</span></dt><dd><a href="http://www.mangahere.com/manga/sidooh/v10/c122/" title="Sidooh 122">Sidooh 122</a> High and Low</dd></dl><dl><dt><i class="manga_open"></i><a rel="Yuyushiki" class="manga_info" href="http://www.mangahere.com/manga/yuyushiki/" >Yuyushiki</a> <i class="new">new</i><span class="time">Today 9:37pm</span></dt><dd><a href="http://www.mangahere.com/manga/yuyushiki/c002/" title="Yuyushiki 2">Yuyushiki 2</a> </dd><dd><a href="http://www.mangahere.com/manga/yuyushiki/c001/" title="Yuyushiki 1">Yuyushiki 1</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Asterisk" class="manga_info" href="http://www.mangahere.com/manga/asterisk/" >Asterisk</a><span class="time">Today 9:37pm</span></dt><dd><a href="http://www.mangahere.com/manga/asterisk/v07/c024/" title="Asterisk 24">Asterisk 24</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Quick Start!!" class="manga_info" href="http://www.mangahere.com/manga/quick_start/" >Quick Start!!</a> <i class="new">new</i><span class="time">Today 9:02pm</span></dt><dd><a href="http://www.mangahere.com/manga/quick_start/c007/" title="Quick Start!! 7">Quick Start!! 7</a> A Teacher and a Senior</dd></dl><dl><dt><i class="manga_open"></i><a rel="Attaque" class="manga_info" href="http://www.mangahere.com/manga/attaque/" >Attaque</a><span class="time">Today 9:02pm</span></dt><dd><a href="http://www.mangahere.com/manga/attaque/c032/" title="Attaque 32">Attaque 32</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="City of Dead Sorcerer" class="manga_info" href="http://www.mangahere.com/manga/city_of_dead_sorcerer/" >City of Dead Sorcerer</a><span class="time">Today 9:02pm</span></dt><dd><a href="http://www.mangahere.com/manga/city_of_dead_sorcerer/c052/" title="City of Dead Sorcerer 52">City of Dead Sorcerer 52</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Kimi o Matsu -&gt; Akaiito" class="manga_info" href="http://www.mangahere.com/manga/kimi_o_matsu_akaiito/" >Kimi o Matsu -&gt; Akaiito</a> <i class="new">new</i><span class="time">Today 6:17pm</span></dt><dd><a href="http://www.mangahere.com/manga/kimi_o_matsu_akaiito/c001/" title="Kimi o Matsu -&gt; Akaiito 1">Kimi o Matsu -&gt; Akaiito 1</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Tenshi Tokei" class="manga_info" href="http://www.mangahere.com/manga/tenshi_tokei/" >Tenshi Tokei</a> <i class="new">new</i><span class="time">Today 5:42pm</span></dt><dd><a href="http://www.mangahere.com/manga/tenshi_tokei/c001/" title="Tenshi Tokei 1">Tenshi Tokei 1</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Ginga Patrol Jako" class="manga_info" href="http://www.mangahere.com/manga/ginga_patrol_jako/" >Ginga Patrol Jako</a> <i class="new">new</i><span class="time">Today 3:42pm</span></dt><dd><a href="http://www.mangahere.com/manga/ginga_patrol_jako/c001/" title="Ginga Patrol Jako 1">Ginga Patrol Jako 1</a> Galaxy Patrol to Earth</dd></dl><dl><dt><i class="manga_open"></i><a rel="Komomo Confiserie" class="manga_info" href="http://www.mangahere.com/manga/komomo_confiserie/" >Komomo Confiserie</a><span class="time">Today 3:42pm</span></dt><dd><a href="http://www.mangahere.com/manga/komomo_confiserie/c002/" title="Komomo Confiserie 2">Komomo Confiserie 2</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Sherlock - Pink Iro no Kenkyuu" class="manga_info" href="http://www.mangahere.com/manga/sherlock_pink_iro_no_kenkyuu/" >Sherlock - Pink Iro no Kenkyuu</a><span class="time">Today 2:27pm</span></dt><dd><a href="http://www.mangahere.com/manga/sherlock_pink_iro_no_kenkyuu/c007/" title="Sherlock - Pink Iro no Kenkyuu 7">Sherlock - Pink Iro no Kenkyuu 7</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Komorebi no Kuni" class="manga_info" href="http://www.mangahere.com/manga/komorebi_no_kuni/" >Komorebi no Kuni</a><span class="time">Yesterday 11:17am</span></dt><dd><a href="http://www.mangahere.com/manga/komorebi_no_kuni/c035/" title="Komorebi no Kuni 35">Komorebi no Kuni 35</a> Field Trip</dd></dl><dl><dt><i class="manga_open"></i><a rel="Akatsuki!! Otokojuku" class="manga_info" href="http://www.mangahere.com/manga/akatsuki_otokojuku/" >Akatsuki!! Otokojuku</a><span class="time">Yesterday 10:53am</span></dt><dd><a href="http://www.mangahere.com/manga/akatsuki_otokojuku/v05/c056/" title="Akatsuki!! Otokojuku 56">Akatsuki!! Otokojuku 56</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Big Sister Vs Big Brother" class="manga_info" href="http://www.mangahere.com/manga/big_sister_vs_big_brother/" >Big Sister Vs Big Brother</a><span class="time">Yesterday 9:17am</span></dt><dd><a href="http://www.mangahere.com/manga/big_sister_vs_big_brother/c006/" title="Big Sister Vs Big Brother 6">Big Sister Vs Big Brother 6</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Himouto! Umaru-chan" class="manga_info" href="http://www.mangahere.com/manga/himouto_umaru_chan/" >Himouto! Umaru-chan</a><span class="time">Yesterday 8:09am</span></dt><dd><a href="http://www.mangahere.com/manga/himouto_umaru_chan/c018/" title="Himouto! Umaru-chan 18">Himouto! Umaru-chan 18</a> Umaru and kirie 1</dd><dd><a href="http://www.mangahere.com/manga/himouto_umaru_chan/c017/" title="Himouto! Umaru-chan 17">Himouto! Umaru-chan 17</a> Umaru and shopping</dd></dl><dl><dt><i class="manga_open"></i><a rel="Butter!!!" class="manga_info" href="http://www.mangahere.com/manga/butter/" >Butter!!!</a><span class="time">Yesterday 7:47am</span></dt><dd><a href="http://www.mangahere.com/manga/butter/v02/c010/" title="Butter!!! 10">Butter!!! 10</a> </dd></dl><dl><dt><i class="manga_close"></i><a rel="Ojikoi" class="manga_info" href="http://www.mangahere.com/manga/ojikoi/" >Ojikoi</a><span class="time">Yesterday 7:37am</span></dt><dd><a href="http://www.mangahere.com/manga/ojikoi/c009/" title="Ojikoi 9">Ojikoi 9</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Kamisama no Inai Nichiyoubi" class="manga_info" href="http://www.mangahere.com/manga/kamisama_no_inai_nichiyoubi/" >Kamisama no Inai Nichiyoubi</a><span class="time">Yesterday 7:36am</span></dt><dd><a href="http://www.mangahere.com/manga/kamisama_no_inai_nichiyoubi/c017/" title="Kamisama no Inai Nichiyoubi 17">Kamisama no Inai Nichiyoubi 17</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Again!!" class="manga_info" href="http://www.mangahere.com/manga/again/" >Again!!</a><span class="time">Yesterday 7:32am</span></dt><dd><a href="http://www.mangahere.com/manga/again/v05/c048/" title="Again!! 48">Again!! 48</a> Ouen sentai henjin five</dd></dl><dl><dt><i class="manga_open"></i><a rel="Beelzebub" class="manga_info" href="http://www.mangahere.com/manga/beelzebub/" >Beelzebub</a> <i class="hot">hot</i><span class="time">Yesterday 7:25am</span></dt><dd><a href="http://www.mangahere.com/manga/beelzebub/v22/c212/" title="Beelzebub 212">Beelzebub 212</a> The Man Least Suited</dd></dl><dl><dt><i class="manga_open"></i><a rel="Zettai Karen Children" class="manga_info" href="http://www.mangahere.com/manga/zettai_karen_children/" >Zettai Karen Children</a><span class="time">Yesterday 7:18am</span></dt><dd><a href="http://www.mangahere.com/manga/zettai_karen_children/v30/c350/" title="Zettai Karen Children 350">Zettai Karen Children 350</a> </dd><dd><a href="http://www.mangahere.com/manga/zettai_karen_children/v34/c331.5/" title="Zettai Karen Children 331.5">Zettai Karen Children 331.5</a> </dd><dd><a href="http://www.mangahere.com/manga/zettai_karen_children/v33/c321.5/" title="Zettai Karen Children 321.5">Zettai Karen Children 321.5</a> </dd><dd><a href="http://www.mangahere.com/manga/zettai_karen_children/v32/c311.5/" title="Zettai Karen Children 311.5">Zettai Karen Children 311.5</a> </dd></dl><dl><dt><i class="manga_close"></i><a rel="Tender Night" class="manga_info" href="http://www.mangahere.com/manga/tender_night/" >Tender Night</a> <i class="new">new</i><span class="time">Yesterday 6:10am</span></dt><dd><a href="http://www.mangahere.com/manga/tender_night/c001/" title="Tender Night 1">Tender Night 1</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Wagatsuma-san wa Ore no Yome" class="manga_info" href="http://www.mangahere.com/manga/wagatsuma_san_wa_ore_no_yome/" >Wagatsuma-san wa Ore no Yome</a> <i class="hot">hot</i><span class="time">Yesterday 5:41am</span></dt><dd><a href="http://www.mangahere.com/manga/wagatsuma_san_wa_ore_no_yome/c010.6/" title="Wagatsuma-san wa Ore no Yome 10.6">Wagatsuma-san wa Ore no Yome 10.6</a> Last gang in class</dd><dd><a href="http://www.mangahere.com/manga/wagatsuma_san_wa_ore_no_yome/c010.5/" title="Wagatsuma-san wa Ore no Yome 10.5">Wagatsuma-san wa Ore no Yome 10.5</a> Stay or go home</dd><dd><a href="http://www.mangahere.com/manga/wagatsuma_san_wa_ore_no_yome/c010.4/" title="Wagatsuma-san wa Ore no Yome 10.4">Wagatsuma-san wa Ore no Yome 10.4</a> I fought the flag</dd><dd><a href="http://www.mangahere.com/manga/wagatsuma_san_wa_ore_no_yome/c010.3/" title="Wagatsuma-san wa Ore no Yome 10.3">Wagatsuma-san wa Ore no Yome 10.3</a> Kimoota Riot</dd><dd><a href="http://www.mangahere.com/manga/wagatsuma_san_wa_ore_no_yome/c010.2/" title="Wagatsuma-san wa Ore no Yome 10.2">Wagatsuma-san wa Ore no Yome 10.2</a> Complete control</dd></dl><dl><dt><i class="manga_open"></i><a rel="Yongbyeong Maluhan" class="manga_info" href="http://www.mangahere.com/manga/yongbyeong_maluhan/" >Yongbyeong Maluhan</a><span class="time">Yesterday 5:12am</span></dt><dd><a href="http://www.mangahere.com/manga/yongbyeong_maluhan/c005/" title="Yongbyeong Maluhan 5">Yongbyeong Maluhan 5</a> </dd><dd><a href="http://www.mangahere.com/manga/yongbyeong_maluhan/c004/" title="Yongbyeong Maluhan 4">Yongbyeong Maluhan 4</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Arata Kangatari" class="manga_info" href="http://www.mangahere.com/manga/arata_kangatari/" >Arata Kangatari</a> <i class="hot">hot</i><span class="time">Yesterday 5:08am</span></dt><dd><a href="http://www.mangahere.com/manga/arata_kangatari/v14/c194/" title="Arata Kangatari 194">Arata Kangatari 194</a> Wish</dd></dl><dl><dt><i class="manga_open"></i><a rel="Fire Emblem: Ankokuryuu to Hikari no Ken" class="manga_info" href="http://www.mangahere.com/manga/fire_emblem_ankokuryuu_to_hikari_no_ken/" >Fire Emblem: Ankokuryuu to Hikari no Ken</a><span class="time">Yesterday 5:08am</span></dt><dd><a href="http://www.mangahere.com/manga/fire_emblem_ankokuryuu_to_hikari_no_ken/v10/c048/" title="Fire Emblem: Ankokuryuu to Hikari no Ken 48">Fire Emblem: Ankokuryuu to Hikari no Ken 48</a> The Magic Tome Aura</dd></dl><dl><dt><i class="manga_open"></i><a rel="Misun Impossible" class="manga_info" href="http://www.mangahere.com/manga/misun_impossible/" >Misun Impossible</a> <i class="new">new</i><span class="time">Yesterday 5:06am</span></dt><dd><a href="http://www.mangahere.com/manga/misun_impossible/c003/" title="Misun Impossible 3">Misun Impossible 3</a> That Teacher! Lectures!!!</dd><dd><a href="http://www.mangahere.com/manga/misun_impossible/c002/" title="Misun Impossible 2">Misun Impossible 2</a> That Teacher! Goes to Work!!!</dd><dd><a href="http://www.mangahere.com/manga/misun_impossible/c001/" title="Misun Impossible 1">Misun Impossible 1</a> That Teacher! Appears!!!</dd></dl><dl><dt><i class="manga_open"></i><a rel="Cheonsaeng Yeonbun" class="manga_info" href="http://www.mangahere.com/manga/cheonsaeng_yeonbun/" >Cheonsaeng Yeonbun</a><span class="time">Yesterday 5:05am</span></dt><dd><a href="http://www.mangahere.com/manga/cheonsaeng_yeonbun/v01/c005/" title="Cheonsaeng Yeonbun 5">Cheonsaeng Yeonbun 5</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Shoujo Mangaka no Koi (OSAKABE Mashin)" class="manga_info" href="http://www.mangahere.com/manga/shoujo_mangaka_no_koi_osakabe_mashin/" >Shoujo Mangaka no Koi (OSAKABE Mashin)</a><span class="time">Yesterday 4:45am</span></dt><dd><a href="http://www.mangahere.com/manga/shoujo_mangaka_no_koi_osakabe_mashin/v01/c002/" title="Shoujo Mangaka no Koi (OSAKABE Mashin) 2">Shoujo Mangaka no Koi (OSAKABE Mashin) 2</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Kingdom" class="manga_info" href="http://www.mangahere.com/manga/kingdom/" >Kingdom</a><span class="time">Yesterday 3:08am</span></dt><dd><a href="http://www.mangahere.com/manga/kingdom/v15/c158/" title="Kingdom 158">Kingdom 158</a> </dd><dd><a href="http://www.mangahere.com/manga/kingdom/v15/c157/" title="Kingdom 157">Kingdom 157</a> </dd><dd><a href="http://www.mangahere.com/manga/kingdom/v15/c156/" title="Kingdom 156">Kingdom 156</a> </dd><dd><a href="http://www.mangahere.com/manga/kingdom/v15/c155/" title="Kingdom 155">Kingdom 155</a> </dd><dd><a href="http://www.mangahere.com/manga/kingdom/v15/c154/" title="Kingdom 154">Kingdom 154</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Dragon Zakura" class="manga_info" href="http://www.mangahere.com/manga/dragon_zakura/" >Dragon Zakura</a><span class="time">Yesterday 2:47am</span></dt><dd><a href="http://www.mangahere.com/manga/dragon_zakura/v05/c064/" title="Dragon Zakura 64">Dragon Zakura 64</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Arslan Senki" class="manga_info" href="http://www.mangahere.com/manga/arslan_senki/" >Arslan Senki</a> <i class="new">new</i><span class="time">Yesterday 1:47am</span></dt><dd><a href="http://www.mangahere.com/manga/arslan_senki/c001/" title="Arslan Senki 1">Arslan Senki 1</a> </dd></dl><dl><dt><i class="manga_open"></i><a rel="Gintama" class="manga_info" href="http://www.mangahere.com/manga/gintama/" >Gintama</a> <i class="hot">hot</i><span class="time">Yesterday 12:47am</span></dt><dd><a href="http://www.mangahere.com/manga/gintama/c452/" title="Gintama 452">Gintama 452</a> It's Hard to Enter a Reunion Part ...  There Late</dd></dl><dl><dt><i class="manga_open"></i><a rel="Toriko" class="manga_info" href="http://www.mangahere.com/manga/toriko/" >Toriko</a> <i class="hot">hot</i><span class="time">Yesterday 12:47am</span></dt><dd><a href="http://www.mangahere.com/manga/toriko/c241/" title="Toriko 241">Toriko 241</a> Mastermind!!</dd></dl><dl><dt><i class="manga_open"></i><a rel="Switch Girl" class="manga_info" href="http://www.mangahere.com/manga/switch_girl/" >Switch Girl</a><span class="time">Yesterday 12:47am</span></dt><dd><a href="http://www.mangahere.com/manga/switch_girl/v06/c044/" title="Switch Girl 44">Switch Girl 44</a> </dd></dl>        </div>
+        <!-- end of latest updates -->
+    </div>
+	</article>
+	<!--------------------left end-------------------->
+
+	<aside class="wid306 right ml0316">
+		<div class="box_radius mb10">
+	<div class="login_top">
+					Welcome to MangaHere, Read 10000+ manga series free online!
+				<a href="http://www.mangahere.com/manga/naruto/v63/c639/">Naruto 639</a>, <a href="http://www.mangahere.com/manga/one_piece/v69/c715/">One Piece 715</a>, <a href="http://www.mangahere.com/manga/bleach/v58/c546/">Bleach 546</a>, <a href="http://www.mangahere.com/manga/fairy_tail/v35/c344/">Fairy Tail 344</a>, <a href="http://www.mangahere.com/manga/hunter_x_hunter/v29/c341.6/">Hunter X Hunter 341</a> will coming next!		<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Freadmangahere&amp;send=false&amp;layout=standard&amp;width=300&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35&amp;appId=250769461611065" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:35px;" allowTransparency="true"></iframe>
+		<a href="https://twitter.com/MangaHere" class="twitter-follow-button" data-show-count="ture">Follow @MangaHere</a>
+		<script>$LAB.queueWait(function(){!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs")});</script>
+		</div>
+</div>
+<div class="box_radius mb10">
+	<div class="box_o clearfix">
+		<div class="title">My Reading History</div>
+	</div>
+	<ul class="right_aside">
+		<li>No history</li>
+	</ul>
+</div>
+<div class="advimg300250 mb10">
+<!-- mangahere_home_right_300x250 -->
+<script type='text/javascript'>
+GA_googleFillSlot("mangahere_home_right_300x250");
+</script>
+</div>
+<div class="box_radius mb10">
+	<div class="box_o clearfix">
+		<a class="more right" href="http://www.mangahere.com/spoilers/" target="_blank"></a>
+		<div class="title">Hot Manga Spoilers</div>
+	</div>
+	<ul class="right_aside">
+		<li>
+			<a class="color_ff00" href="/spoiler/naruto-639/" title="Naruto 639 spoilers [Predictions & Discussions]" target="_blank">Naruto 639 spoilers [Predictions & D ... </a>		</li>
+		<li>
+			<a class="color_0077" href="/spoiler/one-piece-715/" title="One Piece 715 spoilers [Predictions & Discussions]" target="_blank">One Piece 715 spoilers [Predictions  ... </a>		</li>
+		<li>
+			<a class="color_0077" href="/spoiler/bleach-546/" title="Bleach 546 spoilers[Predictions & Discussions]" target="_blank">Bleach 546 spoilers[Predictions & Di ... </a>		</li>
+		<li>
+			<a class="color_0077" href="/spoiler/fairy-tail-341/" title="Fairy Tail 341 spoilers[Predictions & Discussions]" target="_blank">Fairy Tail 341 spoilers[Predictions  ... </a>		</li>
+	</ul>
+</div>
+<div class="box_radius mb10">
+	<div class="box_o clearfix">
+		<a class="more right" href="http://www.mangahere.com/news/" target="_blank"></a>
+		<div class="title">Manga News</div>
+	</div>
+	<ul class="right_aside">
+		<li>
+			<a class="color_ff00" href="/news/fairy-tail-tv-anime-project-relaunched/" title="Fairy Tail TV Anime Project Relaunched!" target="_blank">Fairy Tail TV Anime Project Relaunch ... </a><span class="new_gif"></span>		</li>
+		<li>
+			<a class="color_0077" href="/news/nisekoi-anime-voice-cast-revealed/" title="Nisekoi Anime Voice Cast Revealed" target="_blank">Nisekoi Anime Voice Cast Revealed</a>		</li>
+		<li>
+			<a class="color_0077" href="/news/sket-dance-manga-to-end-soon/" title="Sket Dance Manga to End Soon" target="_blank">Sket Dance Manga to End Soon</a>		</li>
+		<li>
+			<a class="color_0077" href="/news/new-sailor-moon-stage-musical-costume-photos-revealed/" title="New &quot;Sailor Moon&quot; Stage Musical Costume Photos Revealed" target="_blank">New &quot;Sailor Moon&quot; Stage Mu ... </a>		</li>
+	</ul>
+</div>
+<div class="box_radius mb10">
+<div class="box_o clearfix">
+	<a href="/directory/?views.za" class="more right"></a>
+	<div class="title">Manga Ranking</div>
+</div>
+<div class="manga_ranking">			<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/naruto/" >
+					Naruto				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/naruto/v63/c638/">Naruto 638</a>			</dd>
+			<span class="updated"></span>			</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/fairy_tail/" >
+					Fairy Tail				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/fairy_tail/v35/c343/">Fairy Tail 343</a>			</dd>
+			<span class="updated"></span>			</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/bleach/" >
+					Bleach				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/bleach/v58/c545/">Bleach 545</a>			</dd>
+			<span class="updated"></span>			</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/beelzebub/" >
+					Beelzebub				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/beelzebub/v22/c212/">Beelzebub 212</a>			</dd>
+			<span class="updated"></span>			</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/the_breaker_new_waves/" >
+					The Breaker: New Waves				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/the_breaker_new_waves/c123/">The Breaker: New Waves 123</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/nisekoi_komi_naoshi/" >
+					Nisekoi (KOMI Naoshi)				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/nisekoi_komi_naoshi/c081/">Nisekoi (KOMI Naoshi) 81</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/historys_strongest_disciple_kenichi/" >
+					Historys Strongest Disciple Ke ... 				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/historys_strongest_disciple_kenichi/v45/c529/">Historys Strongest Disciple Ke ...  529</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/girl_the_wild_s/" >
+					Girl the Wild's				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/girl_the_wild_s/c093/">Girl the Wild's 93</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/one_piece/" >
+					One Piece				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/one_piece/v69/c714/">One Piece 714</a>			</dd>
+			<span class="updated"></span>			</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/ao_no_exorcist/" >
+					Ao no Exorcist				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/ao_no_exorcist/v08/c046.6/">Ao no Exorcist 46.6</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/kimi_no_iru_machi/" >
+					Kimi no Iru Machi				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/kimi_no_iru_machi/v19/c235/">Kimi no Iru Machi 235</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/noblesse/" >
+					Noblesse				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/noblesse/v04/c286/">Noblesse 286</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/the_world_god_only_knows/" >
+					The World God Only Knows				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/the_world_god_only_knows/v19/c234/">The World God Only Knows 234</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/skip_beat/" >
+					Skip Beat				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/skip_beat/v31/c201/">Skip Beat 201</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/cage_of_eden/" >
+					Cage of Eden				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/cage_of_eden/v17/c185/">Cage of Eden 185</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/sun_ken_rock/" >
+					Sun-ken Rock				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/sun_ken_rock/v19/c124/">Sun-ken Rock 124</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/sankarea/" >
+					Sankarea				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/sankarea/c041/">Sankarea 41</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/akame_ga_kiru/" >
+					Akame ga Kiru!				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/akame_ga_kiru/c038/">Akame ga Kiru! 38</a>			</dd>
+						</dl>
+						<dl >
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/shingeki_no_kyojin/" >
+					Shingeki no Kyojin				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/shingeki_no_kyojin/c047/">Shingeki no Kyojin 47</a>			</dd>
+						</dl>
+						<dl class="last">
+			<dt>
+				<a class="color_0077" href="http://www.mangahere.com/manga/magi/" >
+					Magi				</a>
+			</dt>
+			<dd>
+			<a href="http://www.mangahere.com/manga/magi/v12/c188/">Magi 188</a>			</dd>
+						</dl>
+			</div></div>
+<div class="box_radius mb10">
+<div class="box_o clearfix">
+	<div class="box_c_r"></div>
+	<a href="/new/" class="more right"></a>
+	<div class="box_c_l"></div>
+	<div class="title"><span class="title_icon"></span>New Manga Series</div>
+</div>
+<ul class="manga_series">			<li>
+				<p>
+				<a class="color_0077" href="http://www.mangahere.com/manga/house_backer/" >House Backer</a>
+				<span class="new_gif"></span>				</p>
+				<p><a href="/comedy/">Comedy</a>, <a href="/shounen_ai/">Shounen Ai</a>, <a href="/slice_of_life/">Slice Of Life</a></p>
+				<div class="clearfix">
+					<a class="manga_img" href="http://www.mangahere.com/manga/house_backer/">
+						<img width="100" height="100" src="http://m.mhcdn.net/store/manga/13404/thumb_cover.jpg?v=1373532703">
+					</a>
+					Azumi met new arrogant housekeeper, Wakui who is tougher than any maids he has ever met!				</div>
+			</li>
+					<li>
+				<p>
+				<a class="color_0077" href="http://www.mangahere.com/manga/trapped/" >Trapped</a>
+				<span class="new_gif"></span>				</p>
+				<p><a href="/one_shot/">One Shot</a>, <a href="/slice_of_life/">Slice Of Life</a></p>
+				<div class="clearfix">
+					<a class="manga_img" href="http://www.mangahere.com/manga/trapped/">
+						<img width="100" height="100" src="http://m.mhcdn.net/store/manga/13403/thumb_cover.jpg?v=1373519626">
+					</a>
+					Not Available				</div>
+			</li>
+					<li>
+				<p>
+				<a class="color_0077" href="http://www.mangahere.com/manga/kimi_o_matsu_akaiito/" >Kimi o Matsu -> Akaiito</a>
+				<span class="new_gif"></span>				</p>
+				<p><a href="/romance/">Romance</a>, <a href="/shoujo/">Shoujo</a></p>
+				<div class="clearfix">
+					<a class="manga_img" href="http://www.mangahere.com/manga/kimi_o_matsu_akaiito/">
+						<img width="100" height="100" src="http://m.mhcdn.net/store/manga/13402/thumb_cover.jpg?v=1373513518">
+					</a>
+					Matsuri had always been victimized and bullied because of her bright red hair. One day, two brothers are hired to work at her family's  ... 				</div>
+			</li>
+		</ul></div>
+<div class="box_radius mb10">
+<div class="box_o clearfix">
+	<div class="box_c_r"></div>
+	<a href="/completed/" class="more right"></a>
+	<div class="box_c_l"></div>
+	<div class="title"><span class="title_icon"></span>Completed Manga Series</div>
+</div>
+<ul class="manga_series">			<li>
+				<p>
+				<a class="color_0077" href="http://www.mangahere.com/manga/gamaran/" >Gamaran</a>
+				<span class="completed"></span>
+				</p>
+				<p><a href="/action/">Action</a>, <a href="/adventure/">Adventure</a>, <a href="/historical/">Historical</a></p>
+				<div class="clearfix">
+					<a class="manga_img" href="http://www.mangahere.com/manga/gamaran/">
+						<img width="100" height="100" src="http://m.mhcdn.net/store/manga/6106/thumb_cover.jpg?v=1373452036">
+					</a>
+					Gamaran is a fighting manga classified as shounen, but i think it is closer to seinen genre.
+"Middle Edo Period -- One state becomes t ... 				</div>
+			</li>
+		</ul></div>
+<div class="box_radius mb10">
+	<div class="box_o clearfix">
+		<a class="more right" href="http://www.mangahere.com/manga/mangahere_magazine/"></a>
+		<div class="title">MangaHere Magazine</div>
+	</div>
+	<ul class="right_aside">
+		<li><a href="http://www.mangahere.com/manga/mangahere_magazine/c010/">
+			MangaHere Magazine 10		</a></li>
+		<li><a href="http://www.mangahere.com/manga/mangahere_magazine/c009/">
+			MangaHere Magazine 9		</a></li>
+		<li><a href="http://www.mangahere.com/manga/mangahere_magazine/c008/">
+			MangaHere Magazine 8		</a></li>
+		<li><a href="http://www.mangahere.com/manga/mangahere_magazine/c007/">
+			MangaHere Magazine 7		</a></li>
+	</ul>
+</div>
+
+		<div id="detail_rightfb" class="center mb10">
+			<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Freadmangahere&amp;width=306&amp;height=395&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=true&amp;header=false&amp;appId=250769461611065" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:306px; height:395px;" allowTransparency="true"></iframe>
+		</div>
+<div class="wid166 mt10">
+<div class="advimg160600">
+<!-- mangahere_home_right_160x600 -->
+<script type='text/javascript'>
+GA_googleFillSlot("mangahere_home_right_160x600");
+</script>
+</div>
+</div>
+
+	</aside>
+	<!--------------------right end-------------------->
+</section>
+<!--------------------two main end-------------------->
+<script type="text/javascript">
+$LAB.queueWait(function () {
+	$(function () {
+		$(".catergories_list li:odd").addClass("odd_bg");
+	});
+	T_glide.layerGlide(true, 'icon_num', 'show_pic', 606, 5, 0.2, 'left');
+});
+</script>
+<!--------------------main end-------------------->
+<!--------------------footer start-------------------->
+<footer>
+	<ul class="footer_nav clearfix">
+		<li>
+			<a href="http://www.mangahere.com/">Home</a>|</li>
+		<li>
+			<a href="http://www.mangahere.com/latest/">Latest Releases</a>|</li>
+		<li>
+			<a href="http://www.mangahere.com/mangalist/">Manga List</a>|</li>
+		<li>
+			<a href="http://www.mangahere.com/directory/?views.za">Hot Manga</a>|</li>
+		<li>
+			<a href="http://www.mangahere.com/manga/naruto/">Naruto</a>|</li>
+		<li>
+			<a href="http://www.mangahere.com/manga/bleach/">Bleach</a>|</li>
+		<li>
+			<a href="http://www.mangahere.com/manga/one_piece/">One Piece</a>|</li>
+		<li>
+			<a href="http://www.mangahere.com/manga/fairy_tail/">Fairy Tail</a>|</li>
+		<li>
+			<a href="http://www.mangahere.com/manga/beelzebub/">Beelzebub</a>
+		</li>
+	</ul>
+	<ul class="footer_chapters clearfix">
+<li class="nowrap"><a href="http://www.mangahere.com/manga/naruto/v63/c638/">Naruto 638</a></li><li class="nowrap"><a href="http://www.mangahere.com/manga/one_piece/v69/c714/">One Piece 714</a></li><li class="nowrap"><a href="http://www.mangahere.com/manga/bleach/v58/c545/">Bleach 545</a></li><li class="nowrap"><a href="http://www.mangahere.com/manga/fairy_tail/v35/c343/">Fairy Tail 343</a></li><li class="nowrap"><a href="http://www.mangahere.com/manga/magi/v12/c188/">Magi 188</a></li><li class="nowrap"><a href="http://www.mangahere.com/manga/sankarea/c041/">Sankarea 41</a></li><li class="nowrap"><a href="http://www.mangahere.com/manga/soul_eater/v16/c111/">Soul Eater 111</a></li><li class="nowrap"><a href="http://www.mangahere.com/manga/claymore/v23/c140/">Claymore 140</a></li><li class="nowrap"><a href="http://www.mangahere.com/manga/kuroko_no_basket/v22/c221/">Kuroko no Basket 221</a></li><li class="nowrap"><a href="http://www.mangahere.com/manga/ansatsu_kyoushitsu/c048/">Ansatsu Kyoushitsu 48</a></li><li class="nowrap"><a href="http://www.mangahere.com/manga/bakuman/v20/c176/">Bakuman 176</a></li><li class="nowrap"><a href="http://www.mangahere.com/manga/skip_beat/v31/c201/">Skip Beat 201</a></li><li class="nowrap"><a href="http://www.mangahere.com/manga/vampire_knight/v08/c036/">Vampire Knight 36</a></li><li class="nowrap"><a href="http://www.mangahere.com/manga/noblesse/v04/c286/">Noblesse 286</a></li></ul>
+			<div class="footer_affiliates clearfix">
+			<span class="img_icon"></span>
+			<ul>
+			<li><a target="_blank"  href="http://funnymama.com">FunnyMama</a></li><li><a target="_blank"  href="http://www.animehere.com/">AnimeHere</a></li><li><a target="_blank"  href="http://www.otakuzone.com/">Otaku Community</a></li><li><a target="_blank"  href="http://www.animehere.com/anime/bleach.html">Bleach Episode</a></li><li><a target="_blank"  href="http://www.animehere.com/anime/naruto.html">Naruto Episode</a></li><li><a target="_blank"  href="http://www.wallpaperhere.com/">Desktop Wallpaper</a></li><li><a target="_blank"  href="http://funnymama.com/fast">Fast Fun</a></li>			</ul>
+		</div>
+		<div class="footer_links">
+		<a href="http://www.mangahere.com/donation.htm">Donation</a>
+		<a rel="nofollow" href="http://www.mangahere.com/request-manga.htm">Request Manga</a>
+		<a rel="nofollow" href="http://www.mangahere.com/terms.htm">Terms</a>
+		<a rel="nofollow" href="http://www.mangahere.com/contact-us.htm">Contact Us</a>
+		<a rel="nofollow" href="http://www.mangahere.com/affiliates.htm">Affiliates</a>
+		<a href="http://www.mangahere.com/sitemap.htm">Sitemap</a>
+			</div>
+	<div class="footer_copy">Copyrights and trademarks for the manga, and other promotional materials are held by their respective owners and their use is allowed under the fair use clause of the<br />Copyright Law. &copy; 2013 MangaHere.com.</div>
+</footer>
+<div style="display:none;">
+<!--[if IE 6]>
+<script type="text/javascript">
+$LAB.queueScript("http://m.mhcdn.net/media/js/DD_belatedPNG.js?v=250").queueWait(function () {
+	DD_belatedPNG.fix('.logo, nav, .hot_manga_icon, .banner_pic .thumb li.select');
+});
+</script>
+<![endif]-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-11278446-4']);
+_gaq.push(['_setDomainName', '.mangahere.com']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? '  https://ssl' : '  http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+$LAB.runQueue();
+</script>
+</div>
+</body>
+</html>
+<!--
+37.1.144.52
+1373562408
+init: 0.0074131488800049
+proc: 4.3869018554688E-5
+page: 0.0063881874084473
+total: 0.01515007019043
+-->
